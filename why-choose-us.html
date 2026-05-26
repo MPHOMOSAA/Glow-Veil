@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Glow Veil — Luxury skincare from Sandton, Johannesburg. Reveal the glow beneath the veil.">
+<meta name="theme-color" content="#3A2A24">
+<title>Why Choose Us — Glow Veil</title>
+<link rel="icon" type="image/png" href="assets/logo/glow-veil-logo.png">
+<link rel="apple-touch-icon" href="assets/logo/glow-veil-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="veil"></div>
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">
+    <img src="assets/logo/glow-veil-logo.png" alt="Glow Veil">
+    <span class="nav-logo-text">Glow Veil</span>
+  </a>
+  <ul class="nav-links" id="navLinks"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="products.html">Products</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="why-choose-us.html">Why Us</a></li><li><a href="ai-glow-guide.html">Glow Guide</a></li><li><a href="contact.html">Contact</a></li></ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+<nav class="mob-nav" id="mobNav">
+  <button class="mob-close" onclick="document.getElementById('mobNav').classList.remove('open');document.getElementById('hamburger').classList.remove('open')">&#x2715;</button>
+  <a href="index.html">Home</a><a href="about.html">About</a><a href="products.html">Products</a><a href="gallery.html">Gallery</a><a href="why-choose-us.html">Why Us</a><a href="ai-glow-guide.html">Glow Guide</a><a href="contact.html">Contact</a>
+</nav>
+<main>
+  <div class="page-hero page-hero-cream">
+    <div class="eyebrow center">The Glow Veil Difference</div>
+    <h1 class="section-title center">Why Choose <em>Glow Veil?</em></h1>
+    <div class="gold-line"></div>
+    <p>A South African luxury skincare brand built on softness, elegance, and the belief that every person deserves radiant, confident skin.</p>
+  </div>
+
+  <section style="background:var(--cream)">
+    <div class="why-grid">
+      <div class="why-card reveal rd1"><div class="why-icon">&#x2728;</div><h3 class="why-title">Luxury Feel</h3><p class="why-desc">Our products are designed to give your skincare routine a premium, elegant experience that feels as beautiful as it performs.</p></div>
+      <div class="why-card reveal rd2"><div class="why-icon">&#x1F338;</div><h3 class="why-title">Soft Skin Focus</h3><p class="why-desc">Every product is created around softness, hydration, and a healthy-looking glow &mdash; because soft skin is confident skin.</p></div>
+      <div class="why-card reveal rd3"><div class="why-icon">&#x1F48E;</div><h3 class="why-title">Beautiful Branding</h3><p class="why-desc">Glow Veil brings together skincare and luxury aesthetics, making every product feel special from the moment you hold it.</p></div>
+      <div class="why-card reveal rd1"><div class="why-icon">&#x1F33F;</div><h3 class="why-title">Gentle Everyday Care</h3><p class="why-desc">Our products are made for daily self-care routines that feel simple, calming, and genuinely effective.</p></div>
+      <div class="why-card reveal rd2"><div class="why-icon">&#x1F1FF;&#x1F1E6;</div><h3 class="why-title">South African Brand</h3><p class="why-desc">Started in Sandton in 2023, Glow Veil represents modern South African beauty with a soft luxury touch and global standards.</p></div>
+      <div class="why-card reveal rd3"><div class="why-icon">&#x2B50;</div><h3 class="why-title">Complete Ritual</h3><p class="why-desc">From cleanse to serum to moisturiser to body care &mdash; everything your skin needs in one elegant collection.</p></div>
+    </div>
+  </section>
+
+  <div style="position:relative;overflow:hidden">
+    <div class="scene-banner" style="position:relative">
+      <img src="assets/images/products/all-products.png" alt="Glow Veil Range" class="reveal scale-in">
+    </div>
+    <div style="position:absolute;inset:0;background:rgba(58,42,36,.52);display:flex;align-items:center;justify-content:center;pointer-events:none">
+      <div style="text-align:center;padding:0 20px">
+        <p style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,4vw,3.5rem);color:var(--cream);font-weight:300;margin-bottom:24px">Skincare made to feel as beautiful as it looks.</p>
+        <a href="products.html" class="btn btn-dark">Shop the Range</a>
+      </div>
+    </div>
+  </div>
+
+  <section style="background:#F5EDE3">
+    <div class="eyebrow center">Client Love</div>
+    <h2 class="section-title center">What They&rsquo;re Saying</h2>
+    <div class="gold-line"></div>
+    <div class="testi-grid">
+      <div class="testi-card reveal rd1"><p class="testi-text">Glow Veil feels so luxurious on my skin. The branding, texture, and glow are simply beautiful. It has become my morning ritual.</p><p class="testi-author">&mdash; Amahle M., Johannesburg</p></div>
+      <div class="testi-card reveal rd2"><p class="testi-text">The products look and feel premium. I love how soft and feminine the brand feels. My skin has never been more nourished.</p><p class="testi-author">&mdash; Lerato K., Pretoria</p></div>
+      <div class="testi-card reveal rd3"><p class="testi-text">Finally a South African skincare brand that feels truly luxurious. The Radiance Serum is absolutely divine.</p><p class="testi-author">&mdash; Priya N., Sandton</p></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">
+        <img src="assets/logo/glow-veil-logo.png" alt="Glow Veil">
+        <span class="footer-brand-name">Glow Veil</span>
+      </div>
+      <p class="footer-tagline">&ldquo;Reveal the glow beneath the veil.&rdquo;</p>
+      <p style="font-size:.78rem;font-weight:300;color:rgba(255,247,239,.5);line-height:1.7">Premium skincare from Sandton,<br>Johannesburg, South Africa. Est. 2023.</p>
+      <p style="font-size:.62rem;color:rgba(216,183,106,.5);margin-top:12px;letter-spacing:.08em">AI powered by Maphake Automation</p>
+    </div>
+    <div>
+      <p class="footer-h">Pages</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-h">Explore</p>
+      <ul class="footer-links">
+        <li><a href="why-choose-us.html">Why Choose Us</a></li>
+        <li><a href="ai-glow-guide.html">Glow Guide AI</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-h">Contact</p>
+      <p style="font-size:.83rem;font-weight:300;color:rgba(255,247,239,.6);line-height:1.9">Sandton, Johannesburg<br>South Africa<br><span class="footer-gold">hello@glowveil.co.za</span></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">&copy; 2024 Glow Veil. All rights reserved.</p>
+    <p class="footer-copy">Luxury Skincare &middot; Sandton, South Africa</p>
+  </div>
+</footer>
+<button class="float-btn" id="floatToggle" title="Chat with Glow Guide">&#x2756;</button>
+<div class="float-widget" id="floatWidget">
+  <div class="float-header">
+    <div class="float-header-left">
+      <div class="float-avatar-sm">&#x2756;</div>
+      <div><div class="float-name">Glow Guide</div><div class="float-sub">Powered by Maphake Automation</div></div>
+    </div>
+    <button class="float-close" id="floatClose">&#x2715;</button>
+  </div>
+  <div class="float-messages" id="floatMessages">
+    <div style="align-self:flex-start"><div style="background:#fff;color:#3A2A24;border:1px solid rgba(216,183,106,.2);border-radius:4px 16px 16px 16px;padding:11px 14px;font-size:.83rem;font-weight:300;line-height:1.6">Hi &#x2756; Have a query or can&rsquo;t reach Glow Veil? I&rsquo;m here 24/7 &mdash; powered by Maphake Automation!</div></div>
+  </div>
+  <div class="float-input-row">
+    <input class="float-input" id="floatInput" placeholder="Ask about your skin...">
+    <button class="float-send" id="floatSend">&#x2192;</button>
+  </div>
+</div>
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/glow-guide.js"></script>
+</body>
+</html>
